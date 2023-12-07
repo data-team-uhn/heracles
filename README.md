@@ -81,7 +81,7 @@ mvn clean install
 Then, start the project with (replace with the current version of this project):
 
 ```bash
-PROJECT_VERSION=1.0.0-SNAPSHOT ./start_cards.sh --dev --project cards4heracles -f 'mvn:io.uhndata.cards/cards-slack-notifications/${CARDS_VERSION}/slingosgifeature'
+PROJECT_VERSION=1.0.0-SNAPSHOT ./start_cards.sh --dev --project cards4heracles -f 'mvn:io.uhndata.cards/cards-slack-notifications/${CARDS_VERSION}/slingosgifeature,mvn:io.uhndata.cards/cards-s3-export/${CARDS_VERSION}/slingosgifeature'
 ```
 
 cards4heracles will be available at http://localhost:8080 once it starts.
