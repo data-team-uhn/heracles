@@ -38,16 +38,28 @@
         <extensions>true</extensions>
         <configuration>
           <instructions>
-            <Include-Resource>src/main/media,src/main/resources</Include-Resource>
+            <Include-Resource>{maven-resources},src/main/media</Include-Resource>
             <Sling-Initial-Content>
               SLING-INF/content/libs/cards/resources/media/heracles/;path:=/libs/cards/resources/media/heracles/;overwrite:=true;uninstall:=true,
               SLING-INF/content/libs/cards/conf/Media.json;path:=/libs/cards/conf/Media;overwriteProperties:=true,
               SLING-INF/content/libs/cards/conf/AppName.json;path:=/libs/cards/conf/AppName;overwriteProperties:=true,
               SLING-INF/content/libs/cards/conf/ThemeColor.json;path:=/libs/cards/conf/ThemeColor;overwriteProperties:=true,
+              SLING-INF/content/libs/cards/Questionnaire/;path:=/libs/cards/Questionnaire/;overwriteProperties:=true;uninstall:=true,
+              SLING-INF/content/apps/cards/LinkDefinitions/;path:=/apps/cards/LinkDefinitions/;overwriteProperties:=true;uninstall:=true,
+              SLING-INF/content/Questionnaires/;path:=/Questionnaires/;overwriteProperties:=true;uninstall:=true;checkin:=true,
             </Sling-Initial-Content>
           </instructions>
         </configuration>
       </plugin>
     </plugins>
   </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>cards-patient-subject-type</artifactId>
+      <version>${cards.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
