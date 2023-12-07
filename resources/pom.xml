@@ -21,13 +21,13 @@
 
   <parent>
     <groupId>io.uhndata.cards</groupId>
-    <artifactId>$PROJECT_SHORTNAME$-parent</artifactId>
+    <artifactId>heracles-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>$PROJECT_SHORTNAME$-resources</artifactId>
+  <artifactId>heracles-resources</artifactId>
   <packaging>bundle</packaging>
-  <name>$PROJECT_NAME$ - Resources</name>
+  <name>HERACLES - Resources</name>
 
   <build>
     <plugins>
@@ -40,7 +40,7 @@
           <instructions>
             <Include-Resource>src/main/media,src/main/resources</Include-Resource>
             <Sling-Initial-Content>
-              SLING-INF/content/libs/cards/resources/media/$PROJECT_SHORTNAME$/;path:=/libs/cards/resources/media/$PROJECT_SHORTNAME$/;overwrite:=true;uninstall:=true,
+              SLING-INF/content/libs/cards/resources/media/heracles/;path:=/libs/cards/resources/media/heracles/;overwrite:=true;uninstall:=true,
               SLING-INF/content/libs/cards/conf/Media.json;path:=/libs/cards/conf/Media;overwriteProperties:=true,
               SLING-INF/content/libs/cards/conf/AppName.json;path:=/libs/cards/conf/AppName;overwriteProperties:=true,
               SLING-INF/content/libs/cards/conf/ThemeColor.json;path:=/libs/cards/conf/ThemeColor;overwriteProperties:=true,

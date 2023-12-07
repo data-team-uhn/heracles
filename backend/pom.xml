@@ -21,13 +21,13 @@
 
   <parent>
     <groupId>io.uhndata.cards</groupId>
-    <artifactId>$PROJECT_SHORTNAME$-parent</artifactId>
+    <artifactId>heracles-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>$PROJECT_SHORTNAME$-backend</artifactId>
+  <artifactId>heracles-backend</artifactId>
   <packaging>bundle</packaging>
-  <name>$PROJECT_NAME$ - Backend code</name>
+  <name>HERACLES - Backend code</name>
 
   <build>
     <plugins>

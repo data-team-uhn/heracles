@@ -25,14 +25,14 @@
     <version>1</version>
   </parent>
 
-  <artifactId>$PROJECT_SHORTNAME$-parent</artifactId>
+  <artifactId>heracles-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>CARDS for $PROJECT_NAME$</name>
+  <name>CARDS for HERACLES</name>
   <description>A CARDS based project.</description>
 
   <properties>
-    <cards.version>$CARDS_VERSION$</cards.version>
+    <cards.version>0.9.21-SNAPSHOT</cards.version>
   </properties>
 
   <repositories>

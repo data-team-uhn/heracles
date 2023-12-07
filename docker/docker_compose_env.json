@@ -2,19 +2,19 @@
   "cardsinitial": [
     {
       "name": "ADDITIONAL_SLING_FEATURES",
-      "value": "$ADDITIONAL_SLING_FEATURES$",
+      "value": "mvn:io.uhndata.cards/cards-slack-notifications/$${CARDS_VERSION}/slingosgifeature",
       "conditions": null
     },
     {
       "name": "PROJECT_NAME",
-      "value": "$PROJECT_CODENAME$",
+      "value": "cards4heracles",
       "conditions": null
     }
   ],
   "proxy": [
     {
       "name": "CARDS_APP_NAME",
-      "value": "$PROJECT_NAME$",
+      "value": "HERACLES",
       "conditions": null
     }
   ]

@@ -21,11 +21,11 @@
 
   <parent>
     <groupId>io.uhndata.cards</groupId>
-    <artifactId>$PROJECT_SHORTNAME$-parent</artifactId>
+    <artifactId>heracles-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>$PROJECT_CODENAME$</artifactId>
+  <artifactId>cards4heracles</artifactId>
   <packaging>slingosgifeature</packaging>
-  <name>$PROJECT_NAME$</name>
+  <name>HERACLES</name>
 </project>
